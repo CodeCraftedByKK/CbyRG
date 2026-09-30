@@ -1,3 +1,7 @@
+
+
+// finding maximum using array
+
 #include <stdio.h>
 int main () {
 
