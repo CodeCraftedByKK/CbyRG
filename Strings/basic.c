@@ -7,7 +7,7 @@ int main () {
         'J', 'o', 'h', 'n', '\0'
     };
 
-    char name2 [] = "Kanhaiya";
+    char name2 [] = "Kanhaiya Kumar";
 
     printf("The name is: %s\n", name);
     printf("The name2 is: %s\n", name2);

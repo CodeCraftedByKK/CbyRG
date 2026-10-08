@@ -11,7 +11,8 @@ int main () {
 
     int m;
     int columns[m];
-    printf
+    printf("Enter Number of Columns: ");
+    scanf("%d",&m);
 
 
 
