@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main () {
+
+    int n;
+    printf("Enter any Binary Number: ");
+    scanf("%d",&n);
+
+    
+
+
+
+    return 0;
+}

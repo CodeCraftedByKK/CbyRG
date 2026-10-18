@@ -1,16 +1,21 @@
 #include <stdio.h>
-#include <string.h>
 
-int main () {
+int main() {
     char str[40];
-    puts("Enter a String");
-    gets(str);
-    puts("The Reverse is: ");
+
+    printf("Enter string: ");
+    scanf("%39[^\n]", str);
+
     int size = 0;
-    int i = 0;
-    while(str[i]!='\0'){
+    while (str[size] != '\0')
         size++;
-        i++;
+
+    for (int i = 0, j = size - 1; i < j; i++, j--) {
+        char temp = str[i];
+        str[i] = str[j];
+        str[j] = temp;
     }
-    
+
+    printf("The reverse string is: %s\n", str);
+    return 0;
 }
